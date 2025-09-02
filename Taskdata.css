@@ -1,0 +1,62 @@
+.taskdata-container {
+  padding: 30px;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  border-radius: 12px;
+}
+
+.colorful-table {
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.colorful-form {
+  background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.colorful-form label {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.colorful-form input:disabled {
+  color: #495057;
+}
+
+.taskdataform2-container {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.colorful-form2 {
+  background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  width: 450px; /* Increased width */
+  max-width: 95vw;
+}
+
+.colorful-input {
+  border: 2px solid #007bff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.colorful-input:focus {
+  border-color: #43c6ac;
+  box-shadow: 0 0 8px #43c6ac55;
+}
+
+.colorful-btn {
+  background: linear-gradient(90deg, #007bff 0%, #43c6ac 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.colorful-btn:hover {
+  background: linear-gradient(90deg, #43c6ac 0%, #007bff 100%);
+  transform: scale(1.05);
+  color: #fff;
+}
